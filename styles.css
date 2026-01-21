@@ -16,35 +16,7 @@ header{
     top:0;
 
 }
-#draggable{
-    position: absolute;
-    cursor: grab;
-    height: 6.25vw;
-    width: 8.75vw;
-    background-image: url("./images/dumbell.png");
-    background-size: cover;
-    background-position: center;
 
-    z-index:10;
-}
-#dropzone{
-    position: absolute;
-    width: 20vw;
-    height: 12vw;
-    background-color: rgba(0,0,0, 0);
-    margin-top:-8vw;
-    margin-left: -3vw;
-
-}
-#droppable{
-    height: 13.14vw;
-    width: 15vw;
-    position: relative;
-    left: 45%;
-    top: 3%;
-    display: flex;
-    z-index: 5;
-}
 .navboard {
     display: flex;
     justify-content: space-between;
@@ -509,7 +481,6 @@ body#home .herotext {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 #text1 {
@@ -536,7 +507,7 @@ body#home .herotext {
     grid-area: f;
 }
 .symbol {
-    font-size: 3vw;
+    font-size: 3vw !important;
 }
 
 #sida4 {
@@ -677,7 +648,7 @@ footer{
 }
 
 #tränasida2 {
-    height: 150vw;
+    height: 142vw;
 }
 .träningsformer {
     display: grid;
@@ -1132,7 +1103,6 @@ body.thegyms #hero{
 
     height: 19vw;
     width:50%;
-    justify-self: center;
     background-color: #ffffff;
     position: absolute;
     z-index: 10;
@@ -1496,9 +1466,7 @@ body#bli-medlem #sida2{
     br{
         display: none;
 }
-    #draggable {
-        display: none;
-    }
+
 
     header{
         height: 20vw;
@@ -1978,6 +1946,7 @@ body#bli-medlem #sida2{
         left: 0;
 
     }
+
     .symbol {
         font-size: 10vw;
         font-weight: 100;
